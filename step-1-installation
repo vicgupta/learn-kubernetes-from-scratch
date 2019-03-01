@@ -12,7 +12,7 @@ gcloud compute firewall-rules create learn-kubernetes-from-scratch-allow-interna
   --source-ranges 10.1.0.0/24,10.20.0.0/16
 
 gcloud compute firewall-rules create learn-kubernetes-from-scratch-allow-external \
-  --allow tcp:22,tcp:6443,icmp \
+  --allow tcp:22,tcp:6443,icmp,tcp:80,tcp:443 \
   --network learn-kubernetes-from-scratch \
   --source-ranges 0.0.0.0/0
 
