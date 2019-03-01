@@ -1,0 +1,8 @@
+
+# Deploy ingress controller (traefik)
+
+git clone https://github.com/containous/traefik.git && cd traefik/examples/quickstart
+
+sudo apt install -y docker-compose
+
+sudo docker-compose up -d reverse-proxy
