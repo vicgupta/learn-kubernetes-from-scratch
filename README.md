@@ -1,2 +1,2 @@
-# learn-kubernetes-from-scratch
-Tutorials, Podcasts, Webcasts, and other curated list to learn Kubernetes from scratch
+# Learn Kubernetes from Scratch
+This ia a curated list of tutorials, podcasts, webcasts, and other interesting articles and tidbits to learn Kubernetes from scratch.
