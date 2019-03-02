@@ -12,4 +12,8 @@ kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/
 ```
 sudo kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
-
+### If you want to install kube-bench - for seeing the configuration pass/fail of the kubernetes
+```
+docker run --rm -v `pwd`:/host aquasec/kube-bench:latest install
+```
+You then use ```./kube-bench server``` to run the script
