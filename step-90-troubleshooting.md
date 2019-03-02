@@ -17,3 +17,8 @@ sudo kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Do
 docker run --rm -v `pwd`:/host aquasec/kube-bench:latest install
 ```
 You then use ```./kube-bench server``` to run the script
+### You may run minikube instead of kubeadm
+```
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube && sudo cp minikube /usr/local/bin && rm minikube
+```
+More on minikube on the [kubernetes.io minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) page.
