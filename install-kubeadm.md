@@ -4,7 +4,7 @@ Install various components of Kubernetes like docker, kubeadm, kubelet, kubectl 
 
 ### Using git repositories in a single command
 ```
-sudo apt install -y git && git clone http://github.com/vicgupta/xenial-shell && cd xenial-shell && bash kubeadm.sh
+sudo apt update && sudo apt install -y git && git clone http://github.com/vicgupta/xenial-shell && cd xenial-shell && bash kubeadm.sh
 ```
 ### Configure Kubeadm and associated Kubernetes components
 ```
