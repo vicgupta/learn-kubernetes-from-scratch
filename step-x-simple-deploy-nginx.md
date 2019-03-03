@@ -24,6 +24,7 @@ kubectl scale deployment nginx --replicas=6
 ```
 kubectl get pods
 ```
-
-
-
+### Destroy and delete the service and deployment
+```
+kubectl delete svc nginx && kubectl delete deployment nginx
+```
