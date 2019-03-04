@@ -1,5 +1,5 @@
 
-# Install kubernetes components 
+# Install kubernetes components using Kubeadm
 Install various components of Kubernetes like docker, kubeadm, kubelet, kubectl on Ubuntu (bionic 18.04 or xenial 16.04).
 
 ### Using git repositories in a single command
