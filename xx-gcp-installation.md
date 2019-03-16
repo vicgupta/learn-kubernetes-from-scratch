@@ -47,7 +47,7 @@ gcloud compute addresses list --filter="name=('learn-kubernetes-from-scratch')"
 ## Install the controller or master nodes
 ```
 for i in 0 1 2; do
-  gcloud compute instances create kubernetes-controller-${i} \
+  gcloud compute instances create controller-${i} \
     --async \
     --boot-disk-size 10GB \
     --can-ip-forward \
@@ -63,7 +63,7 @@ done
 ## Install the worker nodes
 ```
 for i in 0 1 2; do
-  gcloud compute instances create kubernetes-worker-${i} \
+  gcloud compute instances create worker-${i} \
     --async \
     --boot-disk-size 10GB \
     --can-ip-forward \
